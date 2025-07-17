@@ -26,7 +26,7 @@ public class Qus2 {
 		else if(age2>=13&&age2<=19){
 			System.out.println("ティーンエイジャーです");
 		}
-		else if(age2<=12){
+		else {
 			System.out.println("子供です");
 		}
 		
@@ -55,7 +55,7 @@ public class Qus2 {
 		int num=0;
 		if(num>0){
 			System.out.println("正の数です");
-		}
+			}
 		else if(num==0){
 			System.out.println("0です");
 		}
@@ -90,7 +90,8 @@ public class Qus2 {
 	//問題8
 		String str1=null;
 		String str2="";
-		if(str1==null||str1==str2){
+		String imput="文字";
+		if(imput.equals(str1)||imput.equals(str2)){
 			System.out.println("入力が無効です");
 			}
 		
