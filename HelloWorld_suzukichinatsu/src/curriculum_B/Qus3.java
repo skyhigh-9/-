@@ -86,6 +86,7 @@ public class Qus3 {
 			number = scanner.nextInt();
 		}
 		System.out.println("終了しました");
+		scanner.close();
 		
 
 		

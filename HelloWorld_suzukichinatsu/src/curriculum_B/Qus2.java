@@ -91,7 +91,7 @@ public class Qus2 {
 		String str1=null;
 		String str2="";
 		String imput="文字";
-		if(imput.equals(str1)||imput.equals(str2)){
+		if(imput==str1||imput==str2){
 			System.out.println("入力が無効です");
 			}
 		

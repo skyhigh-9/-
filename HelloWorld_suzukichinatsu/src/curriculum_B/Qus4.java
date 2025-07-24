@@ -135,7 +135,7 @@ public class Qus4 {
 				if (Max < array4[s][q]) {
 					Max = array4[s][q];
 				}
-				if (Min < array4[s][q]) {
+				if (Min > array4[s][q]) {
 					Min = array4[s][q];
 				}
 
