@@ -86,7 +86,7 @@ public class Qus3 {
 			number = scanner.nextInt();
 		}
 		System.out.println("終了しました");
-		scanner.close();
+		
 		
 
 		
@@ -109,14 +109,15 @@ public class Qus3 {
 		//問題12
 		Random random = new Random();
 		int randomValue = random.nextInt(12);
-		Scanner scanner2 = new Scanner(System.in);
+		
 		System.out.println("入力");
-		String text = scanner2.next();
+		String text = scanner.next();
+		scanner.close();
 		
 		
 		
 		String[] split = text.split("、");
-		scanner2.close();
+		
 		
 		
 		

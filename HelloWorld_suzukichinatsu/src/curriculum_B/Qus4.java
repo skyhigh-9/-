@@ -6,28 +6,15 @@ public class Qus4 {
 	public static void main(String[] args) {
 
 		//問題1
-		int[] numbers;
-		numbers = new int[5];
 		int[] scores = { 1, 2, 3, 4, 5 };
-		scores[0] = 1;
-		scores[1] = 2;
-		scores[2] = 3;
-		scores[3] = 4;
-		scores[4] = 5;
 
 		for (int i = 0; i <= 4; i++) {
 			System.out.println(scores[i]);
 		}
 
 		//問題2
-		int[] num;
-		num = new int[5];
+		
 		int[] array1 = { 10, 20, 30, 40, 50 };
-		array1[0] = 10;
-		array1[1] = 20;
-		array1[2] = 30;
-		array1[3] = 40;
-		array1[4] = 50;
 
 		for (int j = 4; j >= 0; j--) {
 			System.out.println(array1[j]);
@@ -35,13 +22,7 @@ public class Qus4 {
 
 		//問題3
 		int[] num2;
-		num2 = new int[5];
 		int[] resalt = { 3, 5, 7, 9, 11 };
-		resalt[0] = 3;
-		resalt[1] = 5;
-		resalt[2] = 7;
-		resalt[3] = 9;
-		resalt[4] = 11;
 
 		int k = 0;
 		for (int r = 0; r < 5; r++) {
